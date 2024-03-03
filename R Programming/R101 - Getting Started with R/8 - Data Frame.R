@@ -12,7 +12,6 @@ locations <- c("New York", "London",
 movie_lover <- c(TRUE, TRUE, FALSE,
                  TRUE, TRUE)
 
-
 # สร้าง data frame
 df <- data.frame(friends,
            ages,
@@ -20,7 +19,7 @@ df <- data.frame(friends,
            movie_lover)
 View(df)
 
-------------------------
+------------------------------------------
 
 # create data frame from list
 my_list <- list(friends = friends,
