@@ -19,8 +19,8 @@ df <- data.frame(friends,
            movie_lover)
 View(df)
 
-------------------------------------------
 
+# ------------------------------------------
 # create data frame from list
 my_list <- list(friends = friends,
                 ages = ages,
