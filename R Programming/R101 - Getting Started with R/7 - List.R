@@ -1,7 +1,6 @@
 ## Data Structure ----------------
 ## List -> สามารถเก็บข้อมูลได้หลากหลายประเภท
 
- 
 my_name <- "Mail"
 my_friends <- c("Wan", "Ink", "Zue")
 my1 <- matrix(1:25, ncol=5)
