@@ -8,7 +8,7 @@ mean(x)
 sd(x)
 
 
-#--------------------------------------
+#--------------------------------------------------------------
 # create our first function
 
 greeting <- function() {
@@ -26,7 +26,7 @@ func <- function() {
   greeting_name("Mail")
 }
 
-#--------------------------------------
+#----------------------------------------------------------------
 # Function Parameter & Argument
 
 # Can put input/parameter in the function
@@ -35,12 +35,10 @@ greeting_name <- function(name = "Mail") {
   print(paste("Hello!", name))
 }
 
-
 # รับได้มากกว่า 1 parameter
 # name, age => parameter
 # "Mail", 25 => argument 
-greeting_name <- function(name = "Mail",
-                          age = 25) {
+greeting_name <- function(name = "Mail", age = 25) {
   print(paste("Hello!", name))
   print(paste("Age:", age))
 }
