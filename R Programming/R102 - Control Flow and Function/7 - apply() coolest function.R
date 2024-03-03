@@ -10,11 +10,10 @@ cal_mean_by_col <- function(df) {
 ## apply function------------------------------------
 
 # Average of each column
-avg_by_col_mtcars <- apply(mtcars, MARGIN=2, mean) # MARGIN=1 by row / MARGIN=2 by column
+avg_by_col_mtcars <- apply(mtcars, MARGIN=2, mean) # MARGIN=2 by column
 
 # Average of each row
-avg_by_row_mtcars <- apply(mtcars, MARGIN=1, mean) # 
-MARGIN=1 by row / MARGIN=2 by column
+avg_by_row_mtcars <- apply(mtcars, MARGIN=1, mean) # MARGIN=1 by row 
 
 apply(mtcars, MARGIN=2, sum)
 apply(mtcars, MARGIN=2, sd)
